@@ -6,29 +6,25 @@
 
 .club-container {
     display: flex;
-    margin-top: 0px; /* Adjust this value as needed */
+    margin-top: 250px; /* Adjust this value as needed */
     justify-content: center;
     align-items: start; /* Align items at the start of the container */
     height: auto; /* Let the container grow with content */
   }
   
-  .slogan {
-    margin-bottom: 100px; /* Reduced bottom margin */
-    margin-top: 200px; /* Reduced top margin, adjust as needed */
-  }
-  
   .club {
     position: absolute;
-    width: 400px; /* Increase the width */
-    height: 600px; /* Increase the height */
+    width: 400px;
+    height: 600px;
     background-color: #fff;
     color: black;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    user-select: none; /* Add this line */
   }
-  
+
   .club:not(:first-child) {
     margin-left: -20px;
   }
@@ -59,3 +55,81 @@
     font-size: 16px;
     color: #888;
   }
+
+  
+  .feedback-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the whole card */
+    height: 100%; /* Cover the whole card */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; /* Large icon size */
+    color: rgba(255, 0, 0, 0.5); /* Example styling, adjust as needed */
+  }
+
+  .pistol-pete {
+    margin-left: 1200px;
+    margin-top: 50px; /* Adjust this value to move the image down */
+  }
+  
+
+  .home-button {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    z-index: 1;
+    margin-left: -3vw;
+    border: none;
+    cursor: pointer;
+    background-color: #FF5864; /* Tinder's recognizable red-pink */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased text size for better visibility */
+    padding: 15px 30px; /* Adjusted padding for a larger button */
+    border: 2px solid white; /* White border */
+    border-radius: 30px; /* Slightly more rounded corners to maintain the aesthetic with a larger button */
+    cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Simple and modern font */
+    line-height: 0; /* Adjusted line height for better vertical alignment */
+    width: 100px; /* Set the width of the button to 100px */
+  }
+
+  .no-clubs-message {
+    /*movee down */
+    background-color: #ff588a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust based on your layout */
+    margin-top: 50px; /* Adds some space from the top */
+    text-align: center;
+    color: #333; /* Adjust color to fit your theme */
+    padding: 20px;
+    width: 30vw;
+    border-radius: 10px;
+  }
+  
+  .no-clubs-message p {
+    font-size: 1.2rem; /* Larger text for the message */
+    margin-bottom: 20px; /* Space between message and button */
+  }
+  
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff7b00; /* A nice blue, change as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #ff7b008b; /* Darker blue on hover */
+  }
+  

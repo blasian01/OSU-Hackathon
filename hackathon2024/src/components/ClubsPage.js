@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import Footer from './Footer/Footer';
 import Clubs from './ClubPage/Clubs';
+import ClubSideBar from './ClubPage/ClubSideBar';
 
 const ClubsPage = () => {  
-  // Scroll to top on component mount
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -11,6 +11,7 @@ const ClubsPage = () => {
   return (
     <div>
       <Clubs />
+      <ClubSideBar />
     </div>
   );
 }

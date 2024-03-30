@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Footer from './Footer/Footer';
 import Classes from './ClassesPage/Classes';
+import ClassesSideBar from './ClassesPage/ClassesSideBar';
 
 const ClassesPage = () => {  
   // Scroll to top on component mount
@@ -11,6 +12,7 @@ const ClassesPage = () => {
   return (
     <div>
       <Classes />
+      <ClassesSideBar />
     </div>
   );
 }

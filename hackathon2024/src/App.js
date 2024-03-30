@@ -13,6 +13,7 @@ import ClassesPage from './components/ClassesPage.js';
 import ProfessorsPage from './components/ProfessorsPage.js';
 import EventsPage from './components/EventsPage.js';
 import UserLikesPage from './components/UserLikesPage.js';
+import ParticleBackground from './background/particlebackground.js';
 
 function App() {
   const appRef = useRef(null);

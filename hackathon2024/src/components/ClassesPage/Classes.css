@@ -1,0 +1,176 @@
+/* Adjust the primary class name to match the Classes component */
+.Class-App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-home-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* This container will likely stay the same, as it's for the inner cards */
+.class-container {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+}
+
+/* Adjusted for class cards */
+.class {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    user-select: none;
+}
+
+.class:not(:first-child) {
+    margin-left: -20px;
+}
+  
+.class-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+  
+.class-info {
+    padding: 20px;
+}
+  
+.class-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.class-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+  
+.class-members {
+    font-size: 16px;
+    color: #888;
+}
+
+.feedback-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: rgba(255, 0, 0, 0.5);
+}
+  
+/* Adjust pistol-pete if used in Classes component or remove if not needed */
+.pistol-pete {
+    margin-left: 1200px;
+    margin-top: -300px;
+}
+
+.classes-home-button {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    z-index: 1;
+    margin-left: -35vw;
+    border: none;
+    cursor: pointer;
+    background-color: #FF5864; /* Tinder's recognizable red-pink */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased text size for better visibility */
+    padding: 15px 30px; /* Adjusted padding for a larger button */
+    border: 2px solid white; /* White border */
+    border-radius: 30px; /* Slightly more rounded corners to maintain the aesthetic with a larger button */
+    cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Simple and modern font */
+    line-height: 0; /* Adjusted line height for better vertical alignment */
+    width: 100px; /* Set the width of the button to 100px */
+  }
+
+
+.no-classes-message {
+    background-color: #ff588a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 10px;
+}
+  
+.no-classes-message p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+  
+.reset-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #ff7b008b;
+}
+
+
+/* Filter Menu Styles */
+.filter-menu {
+    margin: 20px 0; /* Adds some space above and below the filter menu */
+  }
+  
+  .major-filter-select {
+    width: 200px; /* Adjusts the width of the select box */
+    padding: 8px 12px; /* Adds some padding inside the select box for better readability */
+    border: 2px solid #4CAF50; /* Adds a border with a color that you can change */
+    border-radius: 5px; /* Rounds the corners of the select box */
+    background-color: white; /* Sets the background color of the select box */
+    font-size: 16px; /* Adjusts the font size for better readability */
+    color: #333; /* Sets the text color */
+    -webkit-appearance: none; /* Removes default chrome and safari style */
+    -moz-appearance: none; /* Removes default style Firefox */
+    appearance: none; /* Removes default style for IE */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's selectable */
+  }
+  
+  /* Optionally, style the dropdown arrow */
+  .major-filter-select::-ms-expand {
+    display: none; /* Hides the default arrow in IE */
+  }
+  
+  /* Adds custom arrow (optional) */
+  .major-filter-select {
+    background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px;
+  }
+  

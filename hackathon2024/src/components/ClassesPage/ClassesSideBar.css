@@ -1,0 +1,83 @@
+.classes-sidebar {
+    width: 25vw;
+    background: linear-gradient(to bottom, #fe3c72, #ff655b);
+    padding: 20px;
+    height: 98.4vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    margin-top: -18vh;
+    margin-left: -39vw;
+}
+
+.classes-sidebar h2 {
+    margin-top: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.classes-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.classes-sidebar ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.classes-sidebar ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.classes-sidebar .classes-filters {
+    margin-top: 20px;
+}
+
+.classes-sidebar .classes-filters h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.classes-sidebar .classes-filters div {
+    margin-bottom: 10px;
+}
+
+.classes-sidebar .classes-filters label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.classes-sidebar input[type="number"],
+.classes-sidebar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.classes-sidebar button {
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.classes-sidebar button:hover {
+    background-color: #ff3a2d;
+}
