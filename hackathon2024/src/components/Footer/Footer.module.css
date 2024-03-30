@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.ffy-ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.ffy-footer-widget {
+    padding: 2vw;
+}
+
+.ffy-footer-section {
+    background-color: #49494951;
+    backdrop-filter: blur(0.8vh);
+    -webkit-backdrop-filter: blur(1.6vh);
+    color: white;
+    overflow-x: hidden;  
+    width: 100vw;
+}
+
+.ffy-footer-cta {
+    border-bottom: 0.1vh solid #373636;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.single-cta i {
+    color: #ff5e14;
+    font-size: 3vw;
+    float: left;
+    margin-top: 0.8vh;
+}
+
+.cta-text {
+    padding-left: 1.5vw;
+    display: inline-block;
+}
+
+.cta-text h4 {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 0.2vh;
+}
+
+.cta-text span {
+    color: #757575;
+    font-size: 1.5vh;
+}
+
+.ffy-footer-content {
+    position: relative;
+    z-index: 2;
+    margin-left: -10vw;
+}
+
+.ffy-footer-logo img {
+    max-width: 20vw;
+}
+
+.ffy-footer-text p {
+    margin-bottom: 1.4vh;
+    font-size: 1.4vh;
+    color: #7e7e7e;
+    line-height: 2.8vh;
+}
+
+.ffy-footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+
+.ffy-footer-social-icon a {
+    color: #fff;
+    font-size: 1.6vw;
+    margin-right: 1.5vw;
+}
+
+.ffy-footer-social-icon i {
+    height: 4vw;
+    width: 4vw;
+    text-align: center;
+    line-height: 3.8vw;
+    border-radius: 50%;
+}
+
+.ffy-instagram-bg {
+    background: #146aff;
+}
+
+.ffy-twitter-bg {
+    background: #146aff;
+}
+
+.ffy-tiktok-bg {
+    background: #146aff;
+}
+
+.ffy-discord-bg {
+    background: #146aff;
+}
+
+.ffy-footer-widget-heading h3 {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 4vh;
+    position: relative;
+}
+
+.ffy-footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1.5vh;
+    height: 0.2vh;
+    width: 5vw;
+    background: #1437ff;
+}
+
+.ffy-footer-widget ul li {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.2vh;
+}
+
+.ffy-footer-widget ul li a:hover {
+    color: #146aff;
+}
+
+.ffy-footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+}
+
+.ffy-subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe-box {
+    margin-left: -10vw;
+}
+.ffy-subscribe-form .signup-inputbox {
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.ffy-subscribe-form .signup-inputbox input {
+    width: 70%; /* Changed from 16vw to a percentage */
+    height: 4vh;
+    border: 0.1vh solid #ccc;
+    border-radius: 0.5vh;
+    outline: none;
+    padding: 1vw;
+    font-size: 1em;
+}
+
+.ffy-subscribe-form .signup-inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 1vw;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.ffy-subscribe-form .signup-inputbox input:focus ~ label,
+.ffy-subscribe-form .signup-inputbox input:valid ~ label {
+    top: 1vh;
+    font-size: 0.8em;
+    color: #888;
+}
+
+.ffy-subscribe-form input:focus {
+    border-color: #888;
+}
+
+.ffy-footer-links {
+    margin-left: -4vw;
+}
+
+
+
+.ffy-subscribe-form button {
+    margin-top: 0.2vh;
+    position: absolute;
+    width: 15%; /* Adjusted width */
+    height: 80%;
+    right: 0px;
+    top: -0.2vh;
+    background: #146aff;
+    color: #fff;
+    border: 0.1vh solid #ccc;
+    border-radius: 1vh;
+    cursor: pointer;
+    margin-right: 0.9vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.ffy-subscribe-form button:hover {
+    background: #0b44a6;
+}
+
+.ffy-copyright-area {
+    width: 100%;
+    background: #202020;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.ffy-copyright-text p {
+    margin: 0;
+    font-size: 1.4vh;
+    color: #878787;
+}
+
+.ffy-footer-menu li {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+/* or if you want to adjust the anchor tags inside the list items */
+.ffy-footer-links .ffy-ul li a {
+    padding-right: -3vw; /* Adjust this value as needed */
+    /* Other styles */
+}
+
+
+.ffy-footer-menu li:hover a {
+    color: #146aff;
+}
+
+.ffy-footer-menu li a {
+    font-size: 1.4vh;
+    color: #878787;
+}
+
+@media (min-width: 768px) {
+    .ffy-footer-widget ul li {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .ffy-footer-section .ffy-footer-cta, .ffy-footer-section .ffy-footer-content {
+        padding-left: 8.5vw;
+        padding-right: 2.5vw;
+    }
+}

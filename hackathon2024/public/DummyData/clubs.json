@@ -1,0 +1,31 @@
+[
+    {
+      "orgId": 1,
+      "name": "Tech Innovators",
+      "category": "Academic",
+      "tags": ["Technology", "Innovation", "Programming"],
+      "description": "A club for tech enthusiasts looking to innovate.",
+      "members": ["Alex Smith", "Casey Jordan"],
+      "socials": {
+        "website": "http://techinnovators.university.edu",
+        "instagram": "@techinnovators",
+        "groupme": "@techinnovators"
+      },
+      "imageUrl": "https://example.com/images/tech-innovators.jpg"
+    },
+    {
+      "orgId": 2,
+      "name": "Future Business Leaders",
+      "category": "Professional",
+      "tags": ["Business", "Leadership", "Networking"],
+      "description": "Preparing the next generation of business leaders.",
+      "members": ["Jordan Lee", "Sam Taylor"],
+      "socials": {
+        "website": "http://fbleaders.university.edu",
+        "linkedin": "future-business-leaders",
+        "groupme": "@techinnovators"
+      },
+      "imageUrl": "https://example.com/images/future-business-leaders.jpg"
+    }
+  ]
+  

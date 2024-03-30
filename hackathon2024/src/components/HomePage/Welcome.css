@@ -1,0 +1,97 @@
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .slogan {
+    font-size: 3.2em;
+    line-height: 1.1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example shadow */
+  }
+  
+  
+  a {
+    font-weight: 500;
+    color: #fcfcfc;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+  
+  body, .App {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .welcome-buttons {
+    width: 10vw;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .welcome-buttons:hover {
+    background: #383838;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+
+  .join-us-button {
+    background-color: #FF5864; /* Tinder's recognizable red-pink */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased text size for better visibility */
+    padding: 15px 30px; /* Adjusted padding for a larger button */
+    border: 2px solid white; /* White border */
+    border-radius: 30px; /* Slightly more rounded corners to maintain the aesthetic with a larger button */
+    cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Simple and modern font */
+    line-height: 0; /* Adjusted line height for better vertical alignment */
+  }
+  
+  .join-us-button:hover {
+    background-color: #E75550; /* Slightly darker shade of red-pink for hover effect */
+    border-color: #FFD3D8; /* Light pink border on hover for a subtle effect */
+  }
+  
