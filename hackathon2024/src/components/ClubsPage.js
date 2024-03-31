@@ -11,7 +11,6 @@ const ClubsPage = () => {
   return (
     <div>
       <Clubs />
-      <ClubSideBar />
     </div>
   );
 }

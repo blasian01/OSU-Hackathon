@@ -1,18 +1,4 @@
-.sidebar {
-    width: 25vw; /* Adjust based on your layout */
-    background: linear-gradient(to bottom, #fe3c72, #ff655b); /* A gradient similar to Tinder's */
-    padding: 20px;
-    height: 98.6vh; /* Full height */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: white; /* Light text */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Spacing out content */
-    overflow-y: auto; /* Allow scrolling */
-    margin-top: -92.8vh;
-    margin-left: -6vw;
-  }
-  
+
   .sidebar h2 {
     margin-top: 6vh;
     font-size: 24px;

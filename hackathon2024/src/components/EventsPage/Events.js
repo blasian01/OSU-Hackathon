@@ -6,7 +6,13 @@ function Events() {
 
   return (
     <div className="App">
-      <div className="Clubs-Swipe">
+      <div className="back-button">
+        <NavLink to="/home">
+          <button className="home-button">Back</button>
+        </NavLink>
+      </div>
+      
+      <div className="events-app">
         <h1 className="slogan">Events</h1>
         <div className="button-container">
 

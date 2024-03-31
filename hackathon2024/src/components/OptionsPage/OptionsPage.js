@@ -7,7 +7,7 @@ function Option() {
     { name: 'Clubs', path: '/clubs', img: 'images/Clubs.png' }, // Update the image file names as needed
     { name: 'Classes', path: '/classes', img: 'images/Classes.png' },
     { name: 'Events', path: '/events', img: 'images/Events.png' },
-    { name: 'What You Like', path: '/professors', img: 'images/Likes.png' }
+    { name: 'What You Like', path: '/likes', img: 'images/Likes.png' }
   ];
 
   return (
